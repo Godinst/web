@@ -1,1 +1,29 @@
+/* 首页nav菜单 */
+.xk_nav { background: #fff; width: 100%; height: 70px; padding: 15px 0 5px 0; }
+.xk_nav a { float: left; width: 20%; height: 80px; line-height: 20px; text-align: center; color: #636363; font-size: 13px;}
+.xk_nav a:hover { color: #FF6E00; }
+.xk_nav img { width:45px; height:45px; border-radius:10px;}
+.xk_nav2 { background: #fff; width: 100%; height: 70px; padding: 0 0 5px 0; }
+.xk_nav2 a { float: left; width: 16.66%; height: 35px; text-align: center; color: #222; font-size: 16px;}
+.xk_nav2 a:hover { color: #FF6E00; }
+
+.xk_img { width: 100%; max-height: 170px; }
+.xk_img img { width: 100%; max-height: 170px;}
+
+.banner {height: 44px;line-height: 44px;border-bottom: 1px solid #e7e7e7;border-top: 1px solid #e7e7e7;color: #aa7347;padding: 0 10px 0 20px; background:#fff;}
+.banner h2 { float:left; height:42px; line-height:44px; border-bottom: 2px solid #FF6E00; color:#FF6E00; font-size:17px;}
+.banner h2 a {color:#FF6E00;}
+.banner .right {float:right; height:44px; background:url(/Template/default/v11.2/chaxun.png) left center no-repeat; background-size:25px auto; padding-left:30px;}
+.banner .right a {color:#666; font-size:15px;}
+.banner .youlian {float:right; height:44px; background:url(/Template/default/v11.2/jiameng.png) left center no-repeat; background-size:25px auto; padding-left:30px;}
+.banner .youlian a {color:#666; font-size:15px;}
+.mkHeader {height: 44px;line-height: 44px;margin-top: 7px;padding:0 10px 0 0px;overflow: hidden;border-top: 2px solid #21a33a; font-size:19px; color:#000;font-weight: bold;background:#fff;}
+.mkHeader a { color:#21a33a;}
+.mkHeader .right {float:right; height:44px;font-weight: normal;}
+.mkHeader .right a { margin-left:7px; color:#666; font-size:15px;}
+.mkHeader .news {background:url(/Template/default/v11.2/jiaodian.png) 5px center no-repeat; background-size:25px auto; float:left; width: 35px; height:44px;}
+.mkHeader .sanwen {background:url(/Template/default/v11.2/sanwen.png) 5px center no-repeat; background-size:25px auto; float:left; width: 35px; height:44px;}
+.mkHeader .bbs {background:url(/Template/default/v11.2/bbs.png) 5px center no-repeat; background-size:25px auto; float:left; width: 35px; height:44px;}
+.mkHeader .imgs {background:url(/Template/default/v11.2/img.png) 5px center no-repeat; background-size:25px auto; float:left; width: 35px; height:44px;}
+.mkHeader .game {background:url(/Template/default/v11.2/game.png) 5px center no-repeat; background-size:25px auto; float:left; width: 35px; height:44px;}
 
