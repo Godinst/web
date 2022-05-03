@@ -1,6 +1,6 @@
 /* 首页nav菜单 */
-.xk_nav { background: #fff; width: 100%; height: 70px; padding: 0 0 5px 0; }
-.xk_nav a { float: left; width: 20%; height: 80px; line-height: 20px; text-align: center; color: #636363; font-size: 13px;}
+.xk_nav { background: #fff; width: 100%; height: 70px; padding: 15px 0 5px 0; }
+.xk_nav a { float: left; width: 20%; height: 35px; line-height: 20px; text-align: center; color: #636363; font-size: 13px;}
 .xk_nav a:hover { color: #FF6E00; }
 .xk_nav img { width:45px; height:45px; border-radius:10px;}
 .xk_nav2 { background: #fff; width: 100%; height: 70px; padding: 0 0 5px 0; }
