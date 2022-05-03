@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Starry */
+
+/*  社区个人名片  */
+.shequbg {height: 200px;width: 100%;overflow: hidden;z-index: 1;position: inherit;background-image: url(/Template/default/v11.2/xk_bg.jpg);background-repeat: no-repeat;background-size: 100% 100%;}
+.shequtx {height: 80px;z-index: 3;position: relative;top: 120px; width:100%; background: rgba(46,46,46,0.3);}
+.shequtx li {width: 80px;height: 80px;border-radius: 50px;overflow: hidden;margin-left: 20px;border: solid 3px #fff;position: absolute;top: -40px;overflow: hidden;}
+.shequtx li img {width: 80px;height: 80px;border-radius: 50px;}
+.shequtx span {font-size: 18px;color: #fff;position: absolute;top: 10px;left: 120px; font-weight:700;}
+.shequtx span a {color:#fff;}
+.shequtx p {font-size: 12px;color:#dbdbdb;line-height: 20px;overflow: hidden;height: 45px;font-weight:100;}
+.shequhxcd {width: 100%;height: 70px;border-bottom: solid 1px #e4e4e4;border-top: solid 1px #e4e4e4;background: #FFF; margin:5px 0;}
+.shequhxcd li {float: left;width: 20%;height: 70px;text-align: center;font-size: 15px;color: #6c6c6c;line-height: 30px;padding-top: 5px;}
+.shequhxcd li a { color:#000;font-size: 20px;line-height: 10px;}
+
+/*  社区聊吧  */
+.xks_bg { background:#fff;border: 1px solid #dadada; margin:10px; overflow: hidden; border-radius: 3px;}
+.xks_h3 { height:20px; padding:8px 0;color: #000;border-bottom: 1px solid #dadada;letter-spacing: 0px; }
+.xks_h3 li {border-left: 7px solid #21a33a; height:20px; line-height:20px; padding-left:5px; color:#21a33a; font-weight:600; float:left;}
+.xks_con { padding:5px;color: #636363; font-size:13px;}
+.xks_con y {border-top: 1px dashed #dadada; height:3px; margin-top:8px;}
+.xks_con a{ color:#000;font-size:14px;}
+.xks_zcdt { word-break: break-all;padding: 5px;margin: 5px;border-radius: 2px;transition: 0.2s;line-height: 30px;border: 1px solid #E7E7E7;color: #636363;font-size: 14px; background:#fff; text-align:right;}
+.xks_zcdt a{ float:left;color: #000;text-shadow: rgba(50,50,50,.3) 1px 1px 3px;font: bold 16px/1.3 "\5FAE\8F6F\96C5\9ED1", Arial;font-size: 14px; text-align:left;}
+
+/* 新闻资讯 */
+.xk_cd {width: 100%;height: 80px;background: #df3031; border-bottom: 1px solid #E4E4E4; padding:5px 0;}
+.xk_cd a {float: left;width: 25%;height: 40px;color: #fff;line-height: 40px;text-align: center;font-size: 16px;text-shadow: 0 1px 3px #A14312;font-weight: bold;}
+.xk_cd a:hover {color: #FFECCE;}
+.xk_news {border-top: 2px solid #df3031;}
+
+.xk_cd2 {width: 100%;height: 80px;background: #21a33a; border-bottom: 1px solid #E4E4E4; padding:5px 0;}
+.xk_cd2 a {float: left;width: 25%;height: 40px;color: #fff;line-height: 40px;text-align: center;font-size: 16px;text-shadow: 0 1px 3px #0E6423;font-weight: bold;}
+.xk_cd2 a:hover {color: #FFF4E4;}
+
+.xk_cd3 {width: 100%;height: 80px;background: #EC7F46; border-bottom: 1px solid #E4E4E4; padding:5px 0;}
+.xk_cd3 a {float: left;width: 20%;height: 40px;color: #fff;line-height: 40px;text-align: center;font-size: 16px;text-shadow: 0 1px 3px #713B1F; font-weight: bold;}
+.xk_cd3 a:hover {color: #FFF4E4;}
+.xk_tily {border-top: 2px solid #EC7F46;border-bottom: 1px solid #dfdfdf;}
+
+.xk_cd4 {background: #21a33a;width: 100%;height: 70px;padding: 5px 0;}
+.xk_cd4 a {float: left;width: 25%;height: 35px;line-height: 35px;text-align: center;color: #fff;font-size: 16px;font-weight: 600;text-shadow: 0 1px 3px #0E6E2C;}
+.xk_cd4 a:hover {color: #E6FFC9;}
+
+.topBigImgText{margin:10px 10px; padding:7px 7px; border:1px dashed #7dd382; }
+.imgText{  background:#eafbe1; padding:5px 5px;font-size: 13px;line-height: 25px;text-indent: 2em;color: #148126;}
+.titleMk{ overflow:hidden; border-bottom:1px solid #28a302; padding-left:10px;background: #fff;height: 40px;border-top: 1px solid #F4F4F4;}
+.titleMkImg{ position: relative; margin-bottom:-1px;}
+.titleMkImg img{ float:left; height:33px; margin-top: 7px;}
+.titleMkImg .titleMkspan{ position:absolute; top: 10px;left: 14px; font-size:18px; color:#fff;}
+.titleMkImgRight{ float:right; margin:10px 10px 0 0;}
+.titleMkImgRight img{ margin-right:3px; vertical-align:middle}
+.fxz02 {background: #fffbe3;border: 1px solid #ede4b2;border-radius: 3px;margin: 10px 10px 15px 10px;font-size: 14px;padding:5px 10px;line-height: 24px;color: #CD8D17;}
+
+/* 灵异故事顶部调用 */
+.xk_topgg { padding-left:10px; text-align:center;}
+.xk_topgg h2,.xk_topgg h3{font-size: 18px;font-weight: normal;white-space: nowrap; margin-top:5px;}
+.xk_topgg h2 a,.xk_topgg h3 a {color: #d53830;font-weight: normal;}
+.xk_topgg h2 a:hover,.xk_topgg h3 a:hover {color:#2b73df;}
+.xk_topgg h2::before {content: "校园";-webkit-border-radius: 1px;color: white;display: inline-block;font-size: 10px;height: 20px;line-height: 20px;width: 30px;margin-right: 1px;text-align: center;vertical-align: 2px;background-color: #de6761;white-space: nowrap;}
+.xk_topgg h3::before {content: "热门";-webkit-border-radius: 1px;color: white;display: inline-block;font-size: 10px;height: 20px;line-height: 20px;width: 30px;margin-right: 1px;text-align: center;vertical-align: 2px;background-color: #e6b165;white-space: nowrap;}
+.xk_topgg p a{margin-right: 20px;color: #666;font-size: 14px;white-space: nowrap;display: inline-block;}
+.xk_topgg p a:hover {color:#2b73df;}
+
+/* 下载模块调用 */
+section, div, ul, li, p{display: block;margin: 0;padding: 0;border: 0;font: inherit;font-size: 100%;vertical-align: baseline;}
+.normal-pjule {background: #f0f0f0;-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);}
+.py {background: white;margin: 0px 10px 10px 10px;}
+.pjule-header {display: -webkit-box;-webkit-box-pack: justify;padding: 0 10px;-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);height: 47px;line-height: 47px;position: relative;}
+.pjule-header .hottitle {font-size: 16px;color: #666;}
+.pjule-more {height: 44px;line-height: 44px;text-align: center;color: #e13137;font-size: 14px;vertical-align: middle;margin: 0px 10px 10px 5px;}
+.normal-app-list {margin: 0 8px 5px 8px;}
+.app-rank-wrap .normal-app-list {margin: 0;}
+.cf:before, .cf:after {display: table;content: "";line-height: 0;}
+.cf:after {clear: both;}
+.normal-app-list li {width: 25%;-webkit-box-sizing: border-box;float: left;padding: 10px 0;}
+.app-rank-wrap .normal-app-list li {width: 25%;border: solid #eee;border-width: 0 1px 1px 0;position: relative;}
+.game-icon {display: block;width: 66px;height: 66px;border-radius: 5px;}
+.normal-app-list li .game-icon, .normal-app-list li .game-title, .normal-app-list li .btn, .normal-app-list li .subscript {margin: 0 auto;text-align: center;}
+.normal-app-list li .game-title {color: #333333;margin-top: 3px;height: 20px;line-height: 20px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;max-width: 120px; font-size:15px;}
+.game-info {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.normal-app-list li .game-info {margin-bottom: 3px;color: #999999;text-align: center;line-height: 18px;}
+.normal-app-list li .game-info .item { display:inline-block; font-size:12px;}
+.pjbtn {display: block;width: 60px;-webkit-box-sizing: border-box;font-size: 14px;height: 30px;line-height: 30px;text-align: center;color: #FFF;-webkit-background-size: 150%;text-align: center;margin: 0 auto;background: #22C896; border-radius:3px;}
+
+
+/* 图库 */
+.xk_xiangce-list {overflow:hidden; padding:10px;}
+.xk_xiangce-list li {  box-shadow: 0 1px 1px #dcdcdc; background:#fff; width:150px; height:240px; border: 5px solid #fff; float:left; margin:5px; border-radius:1px;}
+.xk_xiangce-list li a { display:block;}
+.xk_xiangce-list li p { color:#333; font-size:14px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; text-align:center;}
+.xk_xiangce-list .image { width:150px; height:187.5px; overflow:hidden;}
+.xk_xiangce-list .image img { max-width:100%; min-height:187.5px; min-width:150px;}
+.xk_xiangce-list .Detail { width:100%; height:25px; color:#999; font-size:12px; line-height:25px;}
+.xk_xiangce-list .Detail .read { float:left; padding-left:18px;background: url(/Template/default/img/yue.png) no-repeat left center;  background-size: 17px auto;}
+.xk_xiangce-list .Detail .time { float:right; padding-left:5px;}
+
+
+/*------------------------------------UBB-Y=6类型样式↓↓↓------------------------------------*/
+/*修改总体宽度可以改变图片显示一行多列，如：修改为320px，显示一行两列。↓↓↓*/
+.album-list {width:100%; display:inline-block;  padding:0; }/*总体宽度*/
+.album-list ul{ list-style-type:none; width:100%; margin:0 auto;}	
+.album-list ul li{ float:left; margin:5px 5px 2px 5px; overflow:hidden; width:155px; height:180px;  border: 5px solid #fff; box-shadow: 0 1px 1px #dcdcdc; position:relative;}/*列表内边框等属性*/
+.album-list ul li a{ text-decoration:none; color:#000; text-indent:0; overflow:hidden;  display: block;}/*超链接*/
+.album-list ul li p:hover{ background:rgba(255,255,255,0.5); color:#000;}
+/*修改图片宽度高度可以改变一行多列效果↓↓↓*/
+.album-list ul li img { width:100%; min-height:180px;}/*图片样式*/
+.album-list ul li p{ position:absolute; bottom:0; left:0; right:0; height:30px; line-height:30px; text-align:center; color:#fff; background:rgba(0,0,0,0.5); font-size:12px; width:100%!important;}/*说明文字*/ 
+
